@@ -46,7 +46,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .btnLogin-popup {
@@ -66,7 +66,7 @@ header {
     color: #fff;
 }
 
-body {
+html, body {
     width: 100%;
     height: 100vh;
     
@@ -77,7 +77,7 @@ body {
 }
 
 .form-box {
-    width: 600px;
+    width: 560px;
     height: 700px;
     border-radius: 30px;
     position: relative;
@@ -87,15 +87,15 @@ body {
 }
 
 .button-box {
-    width: 500px;
+    width: 450px;
     height: 50px;
     position: relative;
     background-color: rgb(235, 235, 235);
     border-radius: 10px;
-    transform: translateX(605px) translateY(-750px)
+    transform: translateX(630px) translateY(-750px)
 }
 .toggle-btn {
-    padding: 17px 95px;
+    padding: 17px 80px;
     font-size: 15px;
     font-weight: bold;
     cursor: pointer;
@@ -107,7 +107,7 @@ body {
 .input-group {
     top: 180px;
     position: absolute;
-    width: 495px;
+    width: 450px;
     transition: .5s;
 }
 
@@ -115,21 +115,21 @@ body {
     width: 100%;
     height: 25px 0;
     margin: 35px 0;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
     border-left: 0;
     border-right: 0;
     border-top: 0;
     border-bottom: 1px solid #000000;
     outline: none;
     background: transparent;
-    transform: translateX(605px) translateY(100px)
+    transform: translateX(630px) translateY(120px)
     
     
 }
 
 .submit-btn {
-    width: 85%;
-    padding: 15px 30px;
+    width: 100%;
+    padding: 15px 120px;
     font-size: 15px;
     font-weight: bold;
     cursor: pointer;
@@ -139,13 +139,66 @@ body {
     border: 0;
     outline: none;
     border-radius: 10px;
-    transform: translateX(640px) translateY(90px)
+    transform: translateX(631px) translateY(115px)
 }
 
 .text1 {
-    transform: translateX(604px) translateY(-730px)
+    font-size: 19px;
+    transform: translateX(630px) translateY(-712px)
 }
 
 .text2 {
-    transform: translateX(604px) translateY(-650px)
+    font-size: 19px;
+    transform: translateX(630px) translateY(-633px)
 }
+
+.text3 {
+    font-size: 19px;
+    color: rgb(119, 119, 119);
+    transform: translateX(845px) translateY(-490px)
+}
+
+.media-options a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+a.facebook {
+    width: 26.1%;
+    padding: 16px 100px;
+    font-size: 15px;
+    border-radius: 10px;
+    border-bottom: 2px solid #000000;
+    border-left: 2px solid #000000;
+    border-right: 2px solid #000000;
+    border-top: 2px solid #000000;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    transform: translateX(631px) translateY(-470px)
+}
+
+.media-google a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+a.google {
+    width: 26.1%;
+    padding: 16px 100px;
+    font-size: 15px;
+    border-radius: 10px;
+    border-bottom: 2px solid #000000;
+    border-left: 2px solid #000000;
+    border-right: 2px solid #000000;
+    border-top: 2px solid #000000;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    transform: translateX(631px) translateY(-435px)
+}
+  
