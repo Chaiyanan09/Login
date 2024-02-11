@@ -46,7 +46,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    text-decoration: none;
+    text-decoration: none
 }
 
 .btnLogin-popup {
@@ -93,7 +93,9 @@ html, body {
     background-color: rgb(235, 235, 235);
     border-radius: 10px;
     transform: translateX(630px) translateY(-750px)
+    
 }
+
 .toggle-btn {
     padding: 17px 80px;
     font-size: 15px;
@@ -158,14 +160,26 @@ html, body {
     transform: translateX(845px) translateY(-490px)
 }
 
-.media-options a {
+.media-options a{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+img.facebook-img {
+    position: absolute;
+    top: 33%;
+    left: 100px;
     
 }
 
-a.facebook {
+img.facebook-img {
+    height: 40px;
+    width: 40px;
+    transform: translateX(-15px) translateY(-12px)    
+}
+
+a.facebook{
     width: 26.1%;
     padding: 16px 100px;
     font-size: 15px;
@@ -175,30 +189,46 @@ a.facebook {
     border-right: 2px solid #000000;
     border-top: 2px solid #000000;
     text-decoration: none;
-    color: black;
-    background-color: rgb(255, 255, 255);
+    color: #000000;
+    background-color: #ffffff;
+    font-weight: bold;
     transform: translateX(631px) translateY(-470px)
 }
 
-.media-google a {
+.media-google a{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+img.google-img {
+    position: absolute;
+    top: 75%;
+    left: 720px;
     
 }
 
-a.google {
+img.google-img {
+    height: 33px;
+    width: 33px;
+    transform: translateX(-630px) translateY(-30px)    
+}
+
+a.google{
     width: 26.1%;
     padding: 16px 100px;
     font-size: 15px;
+
     border-radius: 10px;
     border-bottom: 2px solid #000000;
     border-left: 2px solid #000000;
     border-right: 2px solid #000000;
     border-top: 2px solid #000000;
     text-decoration: none;
-    color: black;
-    background-color: rgb(255, 255, 255);
-    transform: translateX(631px) translateY(-435px)
+    color: #000000;
+    font-weight: bold;
+    background-color: #ffffff;
+    transform: translateX(630px) translateY(-440px)
 }
+
   
